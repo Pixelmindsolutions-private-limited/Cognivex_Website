@@ -18,7 +18,7 @@ export default function PortfolioPage() {
         eyebrow="Our Work"
         title="Our Portfolio"
         description="Explore some of our latest software, website and mobile app projects."
-        image="/images/portfolioImage.jpg"
+        image="/images/PortfolioImage.jpg"
       />
 
       <Portfolio />
