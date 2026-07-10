@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -41,12 +40,11 @@ export default function Navbar() {
             href="/"
             className="flex items-center gap-3"
           >
-            <Image
+            <img
               src="/logos/logo.png"
               alt="Cognivix Solutions"
               width={180}
               height={50}
-              priority
               className="h-12 w-auto object-contain"
             />
           </Link>

@@ -1,13 +1,23 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+
   images: {
+    unoptimized: true,
+
     remotePatterns: [
-      { protocol: "https", hostname: "placehold.co" },
-      { protocol: "https", hostname: "i.pravatar.cc" },
+      {
+        protocol: "https",
+        hostname: "placehold.co",
+      },
+      {
+        protocol: "https",
+        hostname: "i.pravatar.cc",
+      },
     ],
   },
-  allowedDevOrigins: ["*", "192.168.1.22"],  
+
+  allowedDevOrigins: ["192.168.1.22", "*"],
 };
 
 export default nextConfig;
