@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import Container from "./Container";
 import Badge from "./Badge";
@@ -25,7 +24,7 @@ export default function PageHero({ eyebrow, title, description, image, imageAlt 
     <section className="relative pt-40 pb-24 bg-void overflow-hidden">
       {image && (
         <div className="absolute inset-0">
-          <Image
+          <img
             src={image}
             alt={imageAlt}
             fill
