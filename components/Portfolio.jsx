@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { FaArrowRight, FaGlobe, FaMobileAlt } from "react-icons/fa";
 import Container from "./shared/Container";
@@ -43,7 +42,7 @@ export default function Portfolio() {
             >
               {/* Image */}
               <div className="relative h-56 overflow-hidden">
-                <Image
+                <img
                   src={project.image}
                   alt={project.title}
                   fill
