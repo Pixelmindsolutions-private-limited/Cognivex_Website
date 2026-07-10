@@ -7,6 +7,7 @@ const nextConfig = {
     ],
   },
   allowedDevOrigins: ['*', "192.168.1.22"],
+  output: "export",
 };
 
 export default nextConfig;
