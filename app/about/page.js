@@ -9,7 +9,7 @@ import CTA from "../../components/CTA";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "About | Cognivix",
+  title: "About | congnivexsolutions ",
   description: "Learn more about Cognivexsolutionsand our mission.",
 };
 
@@ -19,8 +19,8 @@ export default function AboutPage() {
       <Navbar />
 
       <PageHero
-        eyebrow="About Cognivix"
-        title="About Cognivix"
+        eyebrow="About congnivexsolutions "
+        title="About congnivexsolutions "
         description="Delivering innovative software solutions for businesses worldwide."
         image="/images/aboutImage.jpg"
       />

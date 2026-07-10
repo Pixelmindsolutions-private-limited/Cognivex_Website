@@ -14,7 +14,7 @@ const blogs = [
 ];
 
 export const metadata = {
-  title: "Blog | Cognivix",
+  title: "Blog | congnivexsolutions ",
 };
 
 export default function BlogPage() {

@@ -7,7 +7,7 @@ import CTA from "../../components/CTA";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Services | Cognivix",
+  title: "Services | congnivexsolutions ",
 };
 
 export default function ServicesPage() {

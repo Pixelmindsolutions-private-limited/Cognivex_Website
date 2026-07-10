@@ -5,7 +5,7 @@ import FAQ from "../../components/FAQ";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Contact | Cognivix",
+  title: "Contact | congnivexsolutions ",
 };
 
 export default function ContactPage() {

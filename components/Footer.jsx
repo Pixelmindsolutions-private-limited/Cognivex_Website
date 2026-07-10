@@ -104,7 +104,7 @@ export default function Footer() {
               </div>
               <div className="flex gap-4">
                 <FaEnvelope className="text-primary mt-1 shrink-0" />
-                <p>info@cognivix.com</p>
+                <p>info@congnivexsolutions .com</p>
               </div>
             </div>
 
@@ -131,7 +131,7 @@ export default function Footer() {
       <div className="border-t border-border">
         <Container className="py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-ink-muted text-center font-body text-sm">
-            © {new Date().getFullYear()} Cognivix. All Rights Reserved.
+            © {new Date().getFullYear()} congnivexsolutions . All Rights Reserved.
           </p>
 
           <div className="flex gap-6 text-sm font-body">

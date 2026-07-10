@@ -42,7 +42,7 @@ export default function Navbar() {
           >
             <img
               src="/images/logo.png"
-              alt="Cognivix Solutions"
+              alt="congnivexsolutions  Solutions"
               width={180}
               height={50}
               className="h-12 w-auto object-contain"

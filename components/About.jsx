@@ -69,7 +69,7 @@ export default function About() {
           <div>
             <SectionTitle
               align="left"
-              eyebrow="About Cognivix"
+              eyebrow="About congnivexsolutions "
               title="Building smart digital products that drive business growth"
               description="Cognivexsolutionsis a technology company focused on creating innovative web applications, mobile apps, AI-powered solutions, digital marketing strategies, and cloud infrastructure for businesses worldwide."
             />

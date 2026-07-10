@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
     <section className="py-24 sm:py-32 bg-void text-ink">
       <Container className="flex flex-col items-center gap-16">
         <SectionTitle
-          eyebrow="Why Choose Cognivix"
+          eyebrow="Why Choose congnivexsolutions "
           title="Delivering technology that creates impact"
           description="We combine innovation, technical expertise, and business strategy to deliver reliable digital solutions that help organizations grow."
         />

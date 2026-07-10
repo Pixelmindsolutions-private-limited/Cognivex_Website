@@ -47,7 +47,7 @@ export default function Hero() {
           {/* Left */}
           <motion.div initial="hidden" animate="show" variants={staggerContainer(0.12)}>
             <motion.div variants={fadeUp}>
-              <Badge>Welcome to Cognivix</Badge>
+              <Badge>Welcome to congnivexsolutions </Badge>
             </motion.div>
 
             <motion.h1

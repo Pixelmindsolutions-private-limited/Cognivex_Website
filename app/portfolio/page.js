@@ -6,7 +6,7 @@ import CTA from "../../components/CTA";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Portfolio | Cognivix",
+  title: "Portfolio | congnivexsolutions ",
 };
 
 export default function PortfolioPage() {
