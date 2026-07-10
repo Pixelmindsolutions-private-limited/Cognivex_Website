@@ -7,12 +7,12 @@ import SectionTitle from "./shared/SectionTitle";
 import { fadeUp, staggerContainer, viewport } from "../utils/animations";
 
 const projects = [
-  { title: "E-Commerce Platform", category: "Web Development", image: "/images/portfolioImage.jpg", type: "Website", icon: <FaGlobe />, tech: ["Next.js", "Node.js", "MongoDB"] },
-  { title: "Food Delivery App", category: "App Development", image: "/images/portfolioImage.jpg", type: "Mobile App", icon: <FaMobileAlt />, tech: ["Flutter", "Firebase", "Node.js"] },
-  { title: "Healthcare CRM", category: "Web Application", image: "/images/portfolioImage.jpg", type: "Dashboard", icon: <FaGlobe />, tech: ["React", "Express", "MongoDB"] },
-  { title: "Education Portal", category: "Learning Platform", image: "/images/portfolioImage.jpg", type: "Website", icon: <FaGlobe />, tech: ["Next.js", "Tailwind", "MySQL"] },
-  { title: "Taxi Booking App", category: "Mobile Application", image: "/images/portfolioImage.jpg", type: "Mobile App", icon: <FaMobileAlt />, tech: ["Flutter", "Firebase", "Maps"] },
-  { title: "AI Chat Platform", category: "Artificial Intelligence", image: "/images/portfolioImage.jpg", type: "Web App", icon: <FaGlobe />, tech: ["Next.js", "OpenAI", "Node.js"] },
+  { title: "E-Commerce Platform", category: "Web Development", image: "/images/PortfolioImage.jpg", type: "Website", icon: <FaGlobe />, tech: ["Next.js", "Node.js", "MongoDB"] },
+  { title: "Food Delivery App", category: "App Development", image: "/images/PortfolioImage.jpg", type: "Mobile App", icon: <FaMobileAlt />, tech: ["Flutter", "Firebase", "Node.js"] },
+  { title: "Healthcare CRM", category: "Web Application", image: "/images/PortfolioImage.jpg", type: "Dashboard", icon: <FaGlobe />, tech: ["React", "Express", "MongoDB"] },
+  { title: "Education Portal", category: "Learning Platform", image: "/images/PortfolioImage.jpg", type: "Website", icon: <FaGlobe />, tech: ["Next.js", "Tailwind", "MySQL"] },
+  { title: "Taxi Booking App", category: "Mobile Application", image: "/images/PortfolioImage.jpg", type: "Mobile App", icon: <FaMobileAlt />, tech: ["Flutter", "Firebase", "Maps"] },
+  { title: "AI Chat Platform", category: "Artificial Intelligence", image: "/images/PortfolioImage.jpg", type: "Web App", icon: <FaGlobe />, tech: ["Next.js", "OpenAI", "Node.js"] },
 ];
 
 export default function Portfolio() {
