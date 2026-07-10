@@ -21,21 +21,18 @@ import { fadeUp, staggerContainer, viewport } from "../../utils/animations";
  */
 export default function PageHero({ eyebrow, title, description, image, imageAlt = "" }) {
   return (
-    <section className="relative pt-40 pb-24 bg-void overflow-hidden">
+    <section className="relative min-h-[70vh] flex items-center overflow-hidden">
       {image && (
         <div className="absolute inset-0">
           <img
             src={image}
             alt={imageAlt}
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
           />
-          {/* Scrim: fades the photo into the void background so the aurora
-              glow and text on top stay readable at any image brightness */}
-          <div className="absolute inset-0 bg-void/70" />
-          <div className="absolute inset-0 bg-gradient-to-b from-void/40 via-void/70 to-void" />
+
+          <div className="absolute inset-0 bg-black/60" />
+
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/50 to-black" />
         </div>
       )}
 
