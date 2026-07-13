@@ -71,7 +71,7 @@ export default function About() {
               align="left"
               eyebrow="About congnivexsolutions "
               title="Building smart digital products that drive business growth"
-              description="Cognivexsolutionsis a technology company focused on creating innovative web applications, mobile apps, AI-powered solutions, digital marketing strategies, and cloud infrastructure for businesses worldwide."
+              description="Cognivexsolutions is a technology company focused on creating innovative web applications, mobile apps, AI-powered solutions, digital marketing strategies, and cloud infrastructure for businesses worldwide."
             />
 
             <motion.p

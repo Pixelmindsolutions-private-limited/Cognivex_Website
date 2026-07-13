@@ -65,7 +65,7 @@ export default function Hero() {
               variants={fadeUp}
               className="mt-8 text-lg text-ink-secondary leading-8 max-w-xl font-body"
             >
-              Cognivexsolutionsdelivers modern web applications, mobile apps, UI/UX
+              Cognivexsolutions delivers modern web applications, mobile apps, UI/UX
               design, digital marketing, AI-powered solutions, and cloud
               services that help businesses grow faster.
             </motion.p>

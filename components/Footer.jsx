@@ -31,7 +31,7 @@ const quickLinks = [
   { name: "Contact", path: "/contact" },
 ];
 
-const services = ["Web Development", "App Development", "Digital Marketing", "UI / UX Design", "Cloud Solutions", "AI Solutions"];
+const services = ["Web Development", "App Development", "Digital Marketing", "UI / UX Design", "E-Commerse Solutions", "Software Solutions"];
 
 export default function Footer() {
   return (
@@ -43,13 +43,13 @@ export default function Footer() {
           <div>
             <h2 className="text-3xl font-display font-bold mb-5">
               <span className="text-primary">Cogni</span>
-              <span className="text-ink">vix</span>
+              <span className="text-ink">vex</span>
             </h2>
 
             <p className="leading-8 text-ink-muted font-body">
-              Cognivexsolutionsis a modern IT company delivering Web Development,
-              Mobile App Development, UI/UX Design, Cloud Solutions,
-              AI Solutions and Digital Marketing services worldwide.
+              Cognivexsolutions is a modern IT company delivering Web Development,
+              Mobile App Development, UI/UX Design, Software Solutions,
+              E-Commerse Solutions and Digital Marketing services worldwide.
             </p>
 
             <div className="flex gap-3 mt-8">
@@ -100,11 +100,11 @@ export default function Footer() {
               </div>
               <div className="flex gap-4">
                 <FaPhoneAlt className="text-primary mt-1 shrink-0" />
-                <p>+91 98765 43210</p>
+                <p>+91 9121084676</p>
               </div>
               <div className="flex gap-4">
                 <FaEnvelope className="text-primary mt-1 shrink-0" />
-                <p>info@congnivexsolutions .com</p>
+                <p>cognivexsolutionspvtltd@gmail.com</p>
               </div>
             </div>
 

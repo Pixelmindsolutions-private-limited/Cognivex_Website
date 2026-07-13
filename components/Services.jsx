@@ -100,7 +100,7 @@ export default function Services() {
           eyebrow="Our Services"
           index={1}
           title="Complete digital solutions"
-          description="From idea to deployment, Cognivix delivers powerful technology solutions that help businesses grow faster and smarter."
+          description="From idea to deployment, Cognivex delivers powerful technology solutions that help businesses grow faster and smarter."
         />
 
         <motion.div
