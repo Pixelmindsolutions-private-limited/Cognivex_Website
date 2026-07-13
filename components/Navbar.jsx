@@ -47,7 +47,7 @@ export default function Navbar() {
             className="flex items-center gap-3"
           >
             <img
-              src="/images/logo.png"
+              src="/logos/logo.png"
               alt="congnivexsolutions  Solutions"
               width={180}
               height={50}
