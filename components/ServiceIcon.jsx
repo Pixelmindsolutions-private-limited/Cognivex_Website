@@ -5,6 +5,9 @@ import {
   FaPaintBrush,
   FaCloud,
   FaRobot,
+  FaTools,
+  FaCode,
+  FaShoppingCart,
 } from "react-icons/fa";
 
 const iconMap = {
@@ -31,6 +34,18 @@ const iconMap = {
   ai: {
     Icon: FaRobot,
     color: "text-emerald-500",
+  },
+  maintenance: {
+    Icon: FaTools,
+    color: "text-indigo-500",
+  },
+  software: {
+    Icon: FaCode,
+    color: "text-violet-500",
+  },
+  ecommerce: {
+    Icon: FaShoppingCart,
+    color: "text-amber-500",
   },
 };
 

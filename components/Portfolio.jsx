@@ -5,14 +5,63 @@ import { FaArrowRight, FaGlobe, FaMobileAlt } from "react-icons/fa";
 import Container from "./shared/Container";
 import SectionTitle from "./shared/SectionTitle";
 import { fadeUp, staggerContainer, viewport } from "../utils/animations";
+import Link from "next/link";
 
 const projects = [
-  { title: "E-Commerce Platform", category: "Web Development", image: "/images/PortfolioImage.jpg", type: "Website", icon: <FaGlobe />, tech: ["Next.js", "Node.js", "MongoDB"] },
-  { title: "Food Delivery App", category: "App Development", image: "/images/PortfolioImage.jpg", type: "Mobile App", icon: <FaMobileAlt />, tech: ["Flutter", "Firebase", "Node.js"] },
-  { title: "Healthcare CRM", category: "Web Application", image: "/images/PortfolioImage.jpg", type: "Dashboard", icon: <FaGlobe />, tech: ["React", "Express", "MongoDB"] },
-  { title: "Education Portal", category: "Learning Platform", image: "/images/PortfolioImage.jpg", type: "Website", icon: <FaGlobe />, tech: ["Next.js", "Tailwind", "MySQL"] },
-  { title: "Taxi Booking App", category: "Mobile Application", image: "/images/PortfolioImage.jpg", type: "Mobile App", icon: <FaMobileAlt />, tech: ["Flutter", "Firebase", "Maps"] },
-  { title: "AI Chat Platform", category: "Artificial Intelligence", image: "/images/PortfolioImage.jpg", type: "Web App", icon: <FaGlobe />, tech: ["Next.js", "OpenAI", "Node.js"] },
+  {
+    title: "Vegiffy",
+    category: "Food Delivery Platform",
+    image: "/logos/Vegiffy.png",
+    url: "https://vegiffy.com/",
+    type: "Web Application",
+    icon: <FaGlobe />,
+    tech: ["React", "Node.js", "MongoDB"],
+  },
+  {
+    title: "SimCuraRx",
+    category: "Healthcare Platform",
+    image: "/logos/simcurarx.png",
+    url: "https://simcurarx.com/",
+    type: "Healthcare Website",
+    icon: <FaGlobe />,
+    tech: ["Next.js", "Node.js", "MongoDB"],
+  },
+  {
+    title: "Narada Media",
+    category: "Digital Marketing Agency",
+    image: "/logos/narada.png",
+    url: "https://naradamedia.com/",
+    type: "Corporate Website",
+    icon: <FaGlobe />,
+    tech: ["Next.js", "Tailwind CSS", "SEO"],
+  },
+  {
+    title: "Varahi Self Drive Cars",
+    category: "Car Rental Platform",
+    image: "/logos/varahi.png",
+    url: "https://varahiselfdrivecars.com/",
+    type: "Booking Platform",
+    icon: <FaGlobe />,
+    tech: ["React", "Node.js", "MongoDB"],
+  },
+  {
+    title: "Editezy",
+    category: "Creative Design Platform",
+    image: "/logos/editezy.png",
+    url: "https://editezy.com/",
+    type: "Business Website",
+    icon: <FaGlobe />,
+    tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
+  },
+  {
+    title: "V Farm Stays",
+    category: "Hospitality & Resort",
+    image: "/logos/vfarms.png",
+    url: "http://vfarmstays.com/",
+    type: "Booking Website",
+    icon: <FaGlobe />,
+    tech: ["React", "Bootstrap", "Node.js"],
+  },
 ];
 
 export default function Portfolio() {
@@ -45,8 +94,9 @@ export default function Portfolio() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
                 />
+
                 <div className="absolute inset-0 bg-gradient-to-t from-elevated via-transparent to-transparent" />
 
                 <span className="absolute top-5 left-5 bg-void/70 backdrop-blur-md border border-white/10 text-ink px-4 py-2 rounded-pill text-xs font-mono flex items-center gap-2">
@@ -68,10 +118,15 @@ export default function Portfolio() {
                   ))}
                 </div>
 
-                <button className="mt-8 flex items-center gap-2 text-ink font-semibold font-body group-hover:gap-4 group-hover:text-secondary transition-all">
+                <Link
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-8 inline-flex items-center gap-2 text-ink font-semibold font-body transition-all group-hover:gap-4 group-hover:text-secondary"
+                >
                   View Project
                   <FaArrowRight />
-                </button>
+                </Link>
               </div>
             </motion.div>
           ))}

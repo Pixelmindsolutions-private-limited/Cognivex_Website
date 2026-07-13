@@ -13,10 +13,12 @@ import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
+import ContactModal from "@/components/ContactModal";
 
 export default function Home() {
   return (
     <>
+      <ContactModal />
       <Navbar />
       <Hero />
       <Clients />

@@ -16,8 +16,8 @@ const inputClasses =
   "w-full mt-2 text-ink bg-white/[0.03] border border-border rounded-brand-sm p-4 outline-none placeholder:text-ink-muted focus:border-primary/60 focus:bg-white/[0.05] transition-colors font-body";
 
 const contactInfo = [
-  { icon: <FaEnvelope />, title: "Email", value: "info@congnivexsolutions .com", tint: "bg-primary-soft text-primary" },
-  { icon: <FaPhoneAlt />, title: "Phone", value: "+91 98765 43210", tint: "bg-secondary-soft text-secondary" },
+  { icon: <FaEnvelope />, title: "Email", value: "Cognivexsolutionspvtltd@gmail.com", tint: "bg-primary-soft text-primary" },
+  { icon: <FaPhoneAlt />, title: "Phone", value: "+91 9121084676", tint: "bg-secondary-soft text-secondary" },
   { icon: <FaMapMarkerAlt />, title: "Office", value: "Hyderabad, Telangana, India", tint: "bg-accent/10 text-accent" },
   { icon: <FaClock />, title: "Working Hours", value: "Monday - Saturday, 9:00 AM - 6:00 PM", tint: "bg-primary-soft text-primary" },
 ];
