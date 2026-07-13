@@ -6,10 +6,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import Container from "./shared/Container";
 import PrimaryButton from "./shared/PrimaryButton";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const router = useRouter();
+
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -27,11 +31,13 @@ export default function Navbar() {
     { name: "Contact", path: "/contact" },
   ];
 
+  const navbarBg = "bg-void/70 backdrop-blur-xl border-border";
+
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ease-brand ${scrolled
-          ? "bg-void/70 backdrop-blur-xl border-b border-border"
-          : "bg-transparent border-b border-transparent"
+        ? `${navbarBg} border-b`
+        : menuOpen ? `${navbarBg} border-b` : "bg-transparent border-b border-transparent"
         }`}
     >
       <Container>
@@ -62,7 +68,16 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <PrimaryButton>Get Started</PrimaryButton>
+            <PrimaryButton
+              className="w-full justify-center"
+              onClick={() => {
+                setMenuOpen(false);
+                router.push("/contact");
+              }}
+
+            >
+              Get Started
+            </PrimaryButton>
           </nav>
 
           {/* Mobile Button */}
@@ -84,7 +99,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="lg:hidden bg-void/95 backdrop-blur-xl border-t border-border overflow-hidden"
+            className={`lg:hidden ${navbarBg} border-t overflow-hidden`}
           >
             <div className="flex flex-col p-6 gap-5">
               {navLinks.map((item) => (
@@ -98,7 +113,16 @@ export default function Navbar() {
                 </Link>
               ))}
 
-              <PrimaryButton className="w-full justify-center">Get Started</PrimaryButton>
+              <PrimaryButton
+                className="w-full justify-center"
+                onClick={() => {
+                  setMenuOpen(false);
+                  router.push("/contact");
+                }}
+
+              >
+                Get Started
+              </PrimaryButton>
             </div>
           </motion.div>
         )}
