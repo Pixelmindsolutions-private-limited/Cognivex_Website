@@ -18,7 +18,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="What We Do"
         title="Our Services"
-        description="Web Development, Mobile Apps, AI Solutions, Digital Marketing and Cloud Services."
+        description="Web Development, Mobile Apps, Digital Marketing, E-Commerce websites and Software solution Services."
         image="/images/serviceImage.jpg"
       />
 
