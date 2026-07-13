@@ -150,6 +150,7 @@ export default function ContactModal() {
                                 <option>AI Solutions</option>
                                 <option>Cloud Solutions</option>
                                 <option>Digital Marketing</option>
+                                <option>Others</option>
                             </select>
 
                             <textarea
