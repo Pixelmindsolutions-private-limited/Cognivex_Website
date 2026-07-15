@@ -12,7 +12,7 @@ export const blogs = [
     title: "Top Web Development Trends in 2026",
     date: "July 2026",
     category: "Web Development",
-    author: "Cognivix Team",
+    author: "Cognivex Team",
     readTime: "6 min read",
     image: "/images/blogImage.jpg",
     excerpt:
@@ -29,7 +29,7 @@ export const blogs = [
     title: "Flutter vs React Native",
     date: "June 2026",
     category: "Mobile Development",
-    author: "Cognivix Team",
+    author: "Cognivex Team",
     readTime: "7 min read",
     image: "/images/blogImage.jpg",
     excerpt:
@@ -46,7 +46,7 @@ export const blogs = [
     title: "AI is Transforming Business",
     date: "May 2026",
     category: "Artificial Intelligence",
-    author: "Cognivix Team",
+    author: "Cognivex Team",
     readTime: "5 min read",
     image: "/images/blogImage.jpg",
     excerpt:
@@ -63,7 +63,7 @@ export const blogs = [
     title: "SEO Strategies That Actually Work",
     date: "April 2026",
     category: "Digital Marketing",
-    author: "Cognivix Team",
+    author: "Cognivex Team",
     readTime: "6 min read",
     image: "/images/blogImage.jpg",
     excerpt:
@@ -80,7 +80,7 @@ export const blogs = [
     title: "Why Next.js is the Future",
     date: "March 2026",
     category: "Next.js",
-    author: "Cognivix Team",
+    author: "Cognivex Team",
     readTime: "5 min read",
     image: "/images/blogImage.jpg",
     excerpt:
@@ -97,7 +97,7 @@ export const blogs = [
     title: "Cloud Computing for Startups",
     date: "February 2026",
     category: "Cloud",
-    author: "Cognivix Team",
+    author: "Cognivex Team",
     readTime: "6 min read",
     image: "/images/blogImage.jpg",
     excerpt:

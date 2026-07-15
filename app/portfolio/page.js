@@ -4,6 +4,9 @@ import Portfolio from "../../components/Portfolio";
 import Testimonials from "../../components/Testimonials";
 import CTA from "../../components/CTA";
 import Footer from "../../components/Footer";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
+import ChatBotIcon from "@/components/ChatBotIcon";
+import ContactModal from "@/components/ContactModal";
 
 export const metadata = {
   title: "Portfolio | congnivexsolutions ",
@@ -12,6 +15,9 @@ export const metadata = {
 export default function PortfolioPage() {
   return (
     <>
+      <WhatsAppIcon />
+      <ChatBotIcon />
+      <ContactModal />
       <Navbar />
 
       <PageHero

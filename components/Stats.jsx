@@ -13,10 +13,10 @@ import SectionTitle from "./shared/SectionTitle";
 import { fadeUp, staggerContainer, viewport } from "../utils/animations";
 
 const stats = [
-  { icon: <FaProjectDiagram />, number: 250, suffix: "+", title: "Projects Completed" },
-  { icon: <FaUsers />, number: 180, suffix: "+", title: "Happy Clients" },
-  { icon: <FaGlobeAsia />, number: 15, suffix: "+", title: "Countries Served" },
-  { icon: <FaLaptopCode />, number: 30, suffix: "+", title: "Expert Developers" },
+  { icon: <FaProjectDiagram />, number: 30, suffix: "+", title: "Projects Completed" },
+  { icon: <FaUsers />, number: 50, suffix: "+", title: "Happy Clients" },
+  { icon: <FaGlobeAsia />, number: 5, suffix: "+", title: "Countries Served" },
+  { icon: <FaLaptopCode />, number: 30, suffix: "+", title: "Employees" },
 ];
 
 export default function Stats() {

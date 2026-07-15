@@ -5,18 +5,24 @@ import PageHero from "../../components/shared/PageHero";
 import Footer from "../../components/Footer";
 import Container from "../../components/shared/Container";
 import { blogs } from "../../data/blogs";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
+import ChatBotIcon from "@/components/ChatBotIcon";
+import ContactModal from "@/components/ContactModal";
 
 export const metadata = {
-  title: "Blog | Cognivix",
+  title: "Blog | Cognivex",
 };
 
 export default function BlogPage() {
   return (
     <>
+      <WhatsAppIcon />
+      <ChatBotIcon />
+      <ContactModal />
       <Navbar />
 
       <PageHero
-        eyebrow="Cognivix Blog"
+        eyebrow="Cognivex Blog"
         title="Our Blog"
         description="Insights, technology trends and software guides."
         image="/images/blogImage.jpg"

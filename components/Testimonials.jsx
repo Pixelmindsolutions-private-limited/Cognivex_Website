@@ -10,23 +10,20 @@ import { fadeUp, staggerContainer, viewport } from "../utils/animations";
 
 const testimonials = [
   {
-    name: "John Anderson",
-    company: "TechNova Inc.",
+    name: "Ganesh L",
     image: "https://i.pravatar.cc/150?img=12",
     review:
       "Cognivexsolutionstransformed our idea into a scalable web platform. Their professionalism, communication, and technical expertise exceeded our expectations.",
   },
   {
-    name: "Sarah Williams",
-    company: "Bright Solutions",
-    image: "https://i.pravatar.cc/150?img=32",
+    name: "Hanish B",
+    image: "https://i.pravatar.cc/150?img=15",
     review:
       "Their mobile app development team delivered a beautiful Flutter application ahead of schedule. Highly recommended for startups.",
   },
   {
-    name: "Michael Brown",
-    company: "Global Enterprises",
-    image: "https://i.pravatar.cc/150?img=15",
+    name: "Bharath M",
+    image: "https://i.pravatar.cc/150?img=12",
     review:
       "Excellent digital marketing strategies and SEO services. Our website traffic increased significantly within just a few months.",
   },
@@ -70,7 +67,7 @@ export default function Testimonials() {
                   </div>
                   <div>
                     <h3 className="font-display font-semibold text-lg text-ink">{item.name}</h3>
-                    <p className="text-ink-muted text-sm font-body">{item.company}</p>
+                    {/* <p className="text-ink-muted text-sm font-body">{item.company}</p> */}
                   </div>
                 </div>
               </GlassCard>

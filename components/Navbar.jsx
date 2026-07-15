@@ -47,11 +47,11 @@ export default function Navbar() {
             className="flex items-center gap-3"
           >
             <img
-              src="/logos/logo.png"
+              src="/logos/pnglogo1.png"
               alt="congnivexsolutions  Solutions"
               width={180}
               height={50}
-              className="h-12 w-auto object-contain"
+              className="h-14 w-auto object-contain"
             />
           </Link>
 

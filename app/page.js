@@ -14,10 +14,14 @@ import Contact from "../components/Contact";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import ContactModal from "@/components/ContactModal";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
+import ChatBotIcon from "@/components/ChatBotIcon";
 
 export default function Home() {
   return (
     <>
+      <WhatsAppIcon />
+      <ChatBotIcon/>
       <ContactModal />
       <Navbar />
       <Hero />

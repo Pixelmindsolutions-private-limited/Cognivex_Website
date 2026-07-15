@@ -3,6 +3,9 @@ import PageHero from "../../components/shared/PageHero";
 import Contact from "../../components/Contact";
 import FAQ from "../../components/FAQ";
 import Footer from "../../components/Footer";
+import ContactModal from "@/components/ContactModal";
+import ChatBotIcon from "@/components/ChatBotIcon";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 
 export const metadata = {
   title: "Contact | congnivexsolutions ",
@@ -11,6 +14,9 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <>
+      <WhatsAppIcon />
+      <ChatBotIcon />
+      <ContactModal />
       <Navbar />
 
       <PageHero

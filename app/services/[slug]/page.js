@@ -3,6 +3,9 @@ import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import ServiceDetail from "../../../components/ServiceDetails";
 import { services, getServiceBySlug } from "../../../data/Services";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
+import ChatBotIcon from "@/components/ChatBotIcon";
+import ContactModal from "@/components/ContactModal";
 
 // Pre-render every service at build time
 export async function generateStaticParams() {
@@ -19,12 +22,12 @@ export async function generateMetadata({ params }) {
 
     if (!service) {
         return {
-            title: "Service Not Found | Cognivix",
+            title: "Service Not Found |Cognivex",
         };
     }
 
     return {
-        title: `${service.title} | Cognivix`,
+        title: `${service.title} | Cognivex`,
         description: service.shortDescription,
     };
 }
@@ -44,6 +47,9 @@ export default async function ServicePage({ params }) {
 
     return (
         <>
+            <WhatsAppIcon />
+            <ChatBotIcon />
+            <ContactModal />
             <Navbar />
             <ServiceDetail service={service} related={related} />
             <Footer />

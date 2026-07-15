@@ -41,10 +41,13 @@ export default function Footer() {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-12">
           {/* Company */}
           <div>
-            <h2 className="text-3xl font-display font-bold mb-5">
-              <span className="text-primary">Cogni</span>
-              <span className="text-ink">vex</span>
-            </h2>
+            <div className="mb-5">
+              <img
+                src="/logos/pnglogo1.png" // update with your logo path
+                alt="Cognivex Solutions"
+                className="h-20 w-auto"
+              />
+            </div>
 
             <p className="leading-8 text-ink-muted font-body">
               Cognivexsolutions is a modern IT company delivering Web Development,

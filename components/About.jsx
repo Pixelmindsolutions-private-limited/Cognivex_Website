@@ -17,10 +17,10 @@ const features = [
 ];
 
 const stats = [
-  { value: "200+", label: "Projects" },
-  { value: "150+", label: "Clients" },
-  { value: "25+", label: "Developers" },
-  { value: "12+", label: "Countries" },
+  { value: "30+", label: "Projects" },
+  { value: "50+", label: "Clients" },
+  { value: "25+", label: "Employees" },
+  { value: "5+", label: "Countries" },
 ];
 
 export default function About() {
@@ -47,7 +47,7 @@ export default function About() {
 
               <div className="relative rounded-brand bg-white/[0.05] backdrop-blur-xl border border-white/10 shadow-glow-primary p-10 w-[84%]">
                 <h2 className="text-6xl font-display font-bold text-transparent bg-clip-text bg-text-gradient mb-2">
-                  5+
+                  3+
                 </h2>
                 <p className="text-xl font-semibold text-ink font-body">Years of Experience</p>
 

@@ -5,6 +5,9 @@ import Technologies from "../../components/Technologies";
 import FAQ from "../../components/FAQ";
 import CTA from "../../components/CTA";
 import Footer from "../../components/Footer";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
+import ChatBotIcon from "@/components/ChatBotIcon";
+import ContactModal from "@/components/ContactModal";
 
 export const metadata = {
   title: "Services | congnivexsolutions ",
@@ -13,6 +16,9 @@ export const metadata = {
 export default function ServicesPage() {
   return (
     <>
+      <WhatsAppIcon />
+      <ChatBotIcon />
+      <ContactModal />
       <Navbar />
 
       <PageHero
