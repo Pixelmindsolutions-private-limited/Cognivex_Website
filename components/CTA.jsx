@@ -46,7 +46,7 @@ export default function CTA() {
             <Link href="/contact">
               <PrimaryButton icon={<FaArrowRight />}>Start Your Project</PrimaryButton>
             </Link>
-            <a href="tel:+919876543210">
+            <a href="tel:+919121084676">
               <SecondaryButton icon={<FaPhoneAlt size={13} />}>Talk To Us</SecondaryButton>
             </a>
           </motion.div>

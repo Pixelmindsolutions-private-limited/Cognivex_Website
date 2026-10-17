@@ -33,13 +33,13 @@ const contactInfo = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    value: "+91 9121084676",
+    value: "+91 9121084676, +91 9666317749",
     tint: "bg-secondary-soft text-secondary",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Office",
-    value: "Hyderabad, Telangana, India",
+    value: "Plot No 63, Sri Residency, 1st Floor 101, KPHB 5th Phase, Kukatpally, Hyderabad, Telangana 500085",
     tint: "bg-accent/10 text-accent",
   },
   {

@@ -99,11 +99,11 @@ export default function Footer() {
             <div className="space-y-5 font-body">
               <div className="flex gap-4">
                 <FaMapMarkerAlt className="text-primary mt-1 shrink-0" />
-                <p>Hyderabad, Telangana, India</p>
+                <p>Plot No 63, Sri Residency, 1st Floor 101, KPHB 5th Phase, Kukatpally, Hyderabad, Telangana 500085</p>
               </div>
               <div className="flex gap-4">
                 <FaPhoneAlt className="text-primary mt-1 shrink-0" />
-                <p>+91 9121084676</p>
+                <p>+91 9121084676, +91 9666317749</p>
               </div>
               <div className="flex gap-4">
                 <FaEnvelope className="text-primary mt-1 shrink-0" />
